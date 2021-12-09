@@ -22,3 +22,5 @@ The folder tcell_covid_codes contains the same code divided into 13 parts:
 
 Parts 1-6 contain the pre-processing and preparation of the dataset and result in the creation of the Seurat objects "Integrated" and "Integrated_NA_filtered", which are saved at the end of part 6. These parts have to be run one after each other (part 2 requires the output of part 1, ...), where the environment in R should not be cleared between individual parts. 
 Parts 7-13 use the two Seurat objects "Integrated" and "Integrated_NA_filtered" to produce most of the scRNAseq analysis plots of the paper. They can be run after loading "Integrated" and "Integrated_NA_filtered".
+
+Please find the dataset including the Seurat Objects "Integrated.h5seurat"  and "Integrated_NA_filtered.h5seurat" which can be used to skip the pre-processing steps of the data analysis at https://doi.org/10.5281/zenodo.5770747
