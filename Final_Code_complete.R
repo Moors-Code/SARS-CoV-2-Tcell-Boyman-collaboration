@@ -1495,7 +1495,7 @@ remove(Investigation, plot,Venn_list,Venn_object,kicks,overlap,Positive_CTaas,Po
 
 
 
-# Revision
+# Revision (analysis that is not in paper and didn't add any interesting results)
 # Investigating differences between HLAs
 # colnames(Integrated_NA_filtered@meta.data)
 Integrated_NA_filtered@meta.data$HLA <- ""
